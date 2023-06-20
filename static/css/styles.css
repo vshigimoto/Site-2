@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url('../image/img2.jpg');
+    background-image: url('../image/img3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -31,7 +31,7 @@ header {
     text-decoration: none;
     font-weight: 400;
     font-size: 19px;
-    color: rgb(85, 124, 163);
+    color: rgb(135, 188, 241);
     transition: .5s;
 }
 
@@ -44,7 +44,7 @@ header {
 
 .logo {
     font-size: 36px;
-    color: rgb(85, 124, 163);
+    color: rgb(135, 188, 241);
     text-decoration: none;
     transition: .5s;
 } 
@@ -60,14 +60,18 @@ header {
 
 .home-content h1 {
     font-size: 60px;
-    color: rgb(85, 124, 163);
-    background: yellowgreen;
+    color: rgb(135, 188, 241);
     position: relative;
+}
+
+.home-content h3 {
+    color: white;
+    font-weight: 300;
 }
 
 .about-content h1 {
     font-size: 60px;
-    color: rgb(85, 124, 163);
+    color: rgb(135, 188, 241);
     position: relative;
     text-align: center;
 }
@@ -91,4 +95,36 @@ header {
 
 .photo { /*настройка чтобы картина не смещала другую вниз занимаю все выделенную горизанталь*/
     display: inline-flex;
+}
+
+.btn-box a{
+    text-decoration: none;
+    font-size: 36px;
+    border: 2px rgb(135, 188, 241) solid;
+    border-radius: 20px;
+    margin: 0px 10px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(135, 188, 241);
+    background: white;
+    transition: .5s;
+}
+
+.btn-box a:nth-child(2) {
+    color: white;
+    background: rgb(135, 188, 241);
+}
+
+.btn-box a:nth-child(2):hover {
+    color: rgb(135, 188, 241);
+    background: white;
+}
+
+.btn-box a:hover {
+    color: white;
+    background: rgb(135, 188, 241);
+}
+
+.btn-box {
+    margin: 70px 0px;
 }
