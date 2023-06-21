@@ -102,7 +102,7 @@ header {
     font-size: 36px;
     border: 2px rgb(135, 188, 241) solid;
     border-radius: 20px;
-    margin: 0px 10px;
+    margin-right: 20px;
     text-align: center;
     justify-content: center;
     color: rgb(135, 188, 241);
@@ -127,4 +127,32 @@ header {
 
 .btn-box {
     margin: 70px 0px;
+}
+
+.home-sci {
+    position: absolute;
+    background: transparent;
+    display: flex;
+    margin: 0 10%;
+    justify-content: space-between;
+}
+
+.home-sci a {
+    position: relative;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    margin-right: 25px;
+    border: 2px rgb(135, 188, 241) solid;
+    border-radius: 50%;
+    text-decoration: none;
+    overflow: hidden;
+    display: inline-flex;
+    color: rgb(135, 188, 241);
+    transition: .5s;
+}
+
+.home-sci a:hover {
+    background: rgb(135, 188, 241);
+   color:white; 
 }
